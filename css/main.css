@@ -29,7 +29,32 @@
   font-size: 18px;
   opacity: 1;
 }
+.nav-tabs {
+  background: none;
+  border: none;
+}
 
+.nav-tabs .nav-link {
+  border: none;
+  color: rgba(255,164,0,0.5);
+  text-transform: capitalize;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+  background: none;
+  color: #FFA400;
+}
+.gallery-card {
+  height: 160px;
+  width: auto !important;
+}
+.card-img {
+  height: 160px;
+  object-fit: cover;
+  text-align: right !important;
+}
+.card {
+  text-align: end;
+}
 body {
   width: 100vw;
   height: 100vh;
@@ -264,6 +289,10 @@ main {
   height: 64px;
   margin-bottom: 12px;
 }
+.form-control-auth {
+  color: #073E4F !important;
+  border-color: #073E4F;
+}
 .form-control2 {
   background-color: #fff !important;
   border-color: #FFA400 !important;
@@ -288,6 +317,12 @@ main {
 label {
   color: #fff !important;
 }
+
+.form-control-auth::-webkit-input-placeholder { color: black !important; }  /* WebKit, Blink, Edge */
+.form-control-auth:-moz-placeholder { color: black !important; }  /* Mozilla Firefox 4 to 18 */
+.form-control-auth::-moz-placeholder { color: black !important; }  /* Mozilla Firefox 19+ */
+.form-control-auth:-ms-input-placeholder { color: black !important; }  /* Internet Explorer 10-11 */
+.form-control-auth::-ms-input-placeholder { color: black !important; }  /* Microsoft Edge */
 
 .form-control2::-webkit-input-placeholder { color: black !important; }  /* WebKit, Blink, Edge */
 .form-control2:-moz-placeholder { color: black !important; }  /* Mozilla Firefox 4 to 18 */
@@ -324,6 +359,11 @@ input:-webkit-autofill {
   width: 60%;
   text-transform: uppercase;
   font-weight: bold;
+}
+.auth-submit-btn:hover {
+  background-color: rgba(7,62,79,1) !important;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
 }
 .page-height-adaptive {
   min-height: 70vh;
@@ -451,3 +491,4 @@ input:-webkit-autofill {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   overflow: hidden;
 }
+
