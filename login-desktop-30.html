@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <title>Friends Villa</title>
-  <meta charset="utf-8">
+  <meta charset="utf-8">  
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -13,12 +13,12 @@
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>  
 <body>
- 
-<nav class="navbar navbar-expand-sm bg-yellow navbar-dark fixed-top">
+
+<nav class="navbar navbar-expand-sm bg-transparent navbar-dark fixed-top">
   <a class="navbar-brand" href="#">
-    <img src="images/shadowlogo.png" class="animate__animated animate__fadeIn">
+    <img src="images/logo.png" class="animate__animated animate__fadeIn">
   </a>
-  <ul class="navbar-nav ml-auto yellow-nav animate__animated animate__fadeIn">
+  <ul class="navbar-nav ml-auto animate__animated animate__fadeIn">
     <li class="nav-item">
       <a class="nav-link" href="#">Stay</a>
     </li>
@@ -37,40 +37,41 @@
 </nav>
 
 
-<main class="yellow-bg">
+<main class="signup-page animate__animated animate__fadeIn animate__delay-1s">
   <div class="container-fluid">
     <div class="row">
-      <div class="col-sm-5 summary-content animate__animated animate__fadeIn  animate__delay-1s">
-        <h1>Know Us Better</h1>
-        <h4>Who are we?</h4>
-        <img src="images/subtract-darkblue.png">
-      </div>
-      <div class="col-sm-5 offset-sm-1 main-content animate__animated animate__fadeIn  animate__delay-1s">
-        <ul type="none" class="tabstyle">
-          <li><a href="know-us-better-desktop-19.html">About Us</a></li>
-          <li><a href="know-us-better-desktop-20.html">Our Team</a></li>
-          <li><a href="know-us-better-desktop-21.html">Vlogs</a></li>
-          <li><a href="#">Happy Customers</a></li>
-        </ul>
-
-
-        <h3>The Building Blocks</h3>
-
-        <div class="building-blocks">
-          <div class="row">
-            <div class="col-sm-6">
-              <img src="images/59405092_2356371971092360_1411586068922236928_n 1.png" class="img-fluid">
-              <h4>Gajanan S. Vaidya</h4>
-              CEO & FOUNDER
+      <div class="col-sm-6 center-transparent-card">
+          <h3 class="text-center bold">LOGIN</h3>
+          <form>
+            <div class="row">
+              <div class="col">
+                <input type="text" name="user" class="form-control" placeholder="Mobile or Email">                            
+              </div>
             </div>
-            <div class="col-sm-6">
-              <img src="images/45505045_2222462744431186_3039950132389871616_n 1.png" class="img-fluid">
-              <h4>Sailee S. Sanaye</h4>
-              Creative Director
+            <div class="row">
+              <div class="col">
+                <input type="password" name="password" class="form-control" placeholder="Password">                            
+              </div>
             </div>
-          </div>
-        </div>
-
+            <div class="row">
+               <div class="col">
+                   <input type="checkbox" value=""> Remember Me
+               </div>
+               <div class="col text-right">
+                 <a href="#">Forgot Password?</a>
+               </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                  <button class="btn btn-default full">Log In</button>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col text-center">
+                Create a New Account. <a href="#" class="color-link">Sign Up</a>
+              </div>
+            </div>
+          </form>
       </div>
     </div>
   </div>
@@ -79,7 +80,7 @@
 
 <footer>
   <div class="container-fluid">
-    <span class="animate__animated animate__fadeIn animate__delay-2s">Copyright &copy; 2012-2013 FRIENDS VILLA</span>
+    <span class="copyright animate__animated animate__fadeIn animate__delay-2s">Copyright &copy; 2012-2013 FRIENDS VILLA</span>
 
     <ul type="none" class="social animate__animated animate__fadeIn animate__delay-2s">
       <li><i class="fa fa-instagram"></i></li>
@@ -90,6 +91,7 @@
     </ul>
   </div>
 </footer>
+
 
 </body>
 </html>
