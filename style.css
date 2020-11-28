@@ -14,7 +14,7 @@ main{
 .footer a{
 	text-decoration: none !important;
 }
-
+ 
 .leftnegativemargin{
 	margin-left: -5px;
 }
@@ -26,6 +26,97 @@ main{
 .footer .loginbtn{
 	border-top-left-radius: 5px !important;
 	border-bottom-left-radius: 5px !important;
+}
+
+.home-page {
+    padding-top: 0 !important;
+}
+
+.home-page .cover{
+	background-image: url('images/marvin-meyer-8CDuHXff3zo-unsplash 1.png');
+	height: 100vh;
+	padding-top: 150px;
+	text-align: center;
+	background-size: cover;
+}
+
+.home-page .cover img{
+	margin-top: 80px;
+}
+
+.home-page .cover h1{
+	font-size: 50px;
+	font-weight: bold;
+	max-width: 480px;
+	margin: auto;
+}
+
+.home-page .availability{
+	background-image: url('images/marvin-meyer-8CDuHXff3zo-unsplash 1.png');
+}
+
+.home-page .availability .semi-transparent{
+	background-color: rgba(10, 25, 29, 0.75);
+	padding-top: 30px;
+	padding-bottom: 30px;
+	text-align: center;
+}
+
+.home-page .availability .semi-transparent .title{
+	color: #FFA400 !important;
+	margin-bottom: 30px;
+	display: block;
+}
+
+.home-page .availability .semi-transparent form{
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 30px;
+}
+
+
+.home-page .availability .semi-transparent form .form-control{
+	border: 1px solid #000;
+	border-radius: 10px;
+	text-align: center;
+	color: #000 !important;
+}
+
+.home-page .availability .semi-transparent form .form-control::placeholder{
+	color: #FFA400 !important;
+	text-align: center;
+}
+
+.home-page .availability .semi-transparent form .btn-default{
+	background-color: #FFA400 !important;
+	border-radius: 10px;
+}
+
+.home-page .locations{
+	background-image: url('images/tim-swaan-eOpewngf68w-unsplash 1.png');
+	background-size: cover;
+}
+
+.home-page .locations .semi-transparent{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-color: rgba(10, 25, 29, 0.75);
+}
+
+.home-page .locations .semi-transparent .row{
+	margin-top: 50px;
+}
+
+.home-page .locations .semi-transparent .row img{
+	width: 100%;
+}
+
+.home-page .locations .semi-transparent h1{
+	text-align: center;
+	position: relative;
+	top: -200px;
+	font-size: 40px;
+	font-weight: bold;
 }
 
 .footer .signupbtn{
@@ -274,6 +365,68 @@ main{
 .white-bg .safety-measures .row{
 	margin-bottom: 30px;
 }
+
+.redtext{
+	color: #ff0000;
+}
+
+.whitetext{
+	color: #fff;
+}
+
+.yellowtext{
+	color: #FFA400;
+}
+
+.bluetext{
+	color: #6FC0D5;
+}
+
+.subtract-left{
+	margin-left: -80px;
+	box-shadow: 0px 0px 0px rgba(0, 0, 0, 0) !important;
+	width: 40px !important;
+}
+
+.subtract-right{
+	float: right;
+	box-shadow: 0px 0px 0px rgba(0, 0, 0, 0) !important;
+	width: 40px !important;
+}
+
+.gallery-page{
+	background-image: url('images/pexels-deeana-creates.png');
+	background-size: cover;
+	min-height: 100vh;	
+	padding-top: 0 !important;
+}
+
+.gallery-page .semi-transparent{
+	background-color: rgba(7, 62, 79, 0.85);
+	min-height: 100vh;
+	padding-top: 120px;
+	padding-bottom: 80px;
+}
+
+.gallery-page .main-content ul a{
+	color: #D2A38F !important;
+}
+
+.gallery-page .main-content .row{
+	margin-top: 50px;
+}
+
+.gallery-page .main-content img{
+	box-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.gallery-page .navigation{
+	width: 100%;
+	position: absolute;
+	top: 45vh;
+}
+
+
 
 .scrollable{
 	height: 250px;
