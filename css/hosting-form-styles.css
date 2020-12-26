@@ -1,4 +1,8 @@
-.container input {
+  body {
+    background-color: #000;
+  }
+
+  .container input {
     position: absolute;
     opacity: 0;
     cursor: pointer;
@@ -51,4 +55,31 @@
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
+  }
+
+  .page-title {
+    font-size: 4em;
+    font-weight: 700;
+  }
+
+  .page-subtitle {
+    font-size: 2em;
+    font-weight: 500;
+  }
+
+  .top-margin {
+    margin-top: 20px;
+  }
+
+  .submit-btn {
+    color: #073E4F;
+  }
+  .container2 {
+    opacity: 0.4;
+  }
+  .footer {
+    width: 101vw;
+    margin-left: -120px;
+    position: relative !important;
+    left: 0px !important;
   }
