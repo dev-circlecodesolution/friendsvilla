@@ -20,7 +20,8 @@ main{
 }
  
 .leftnegativemargin{
-	margin-left: -5px;
+	margin-left: -4px;
+	border-left-color: rgba(0,0,0,0);
 }
 
 .overlappingbuttons .btn{
@@ -28,8 +29,7 @@ main{
 }
 
 .footer .loginbtn{
-	border-top-left-radius: 5px !important;
-	border-bottom-left-radius: 5px !important;
+	border-radius: 5px !important;
 }
 
 .home-page {
@@ -123,11 +123,18 @@ main{
 	font-weight: bold;
 }
 
+.body-background-clr {
+	background-color: #073E4F;
+}
+
+.body-background-clr2 {
+	background-color: #FFA400;
+}
+
 .footer .signupbtn{
 	border-top-right-radius: 5px !important;
 	border-bottom-right-radius: 5px !important;
 }
-
 
 .padding{
 	padding-left: 50px;
@@ -445,14 +452,14 @@ main{
 }
 
 .box-letters span{
-	width: 50px;
-	height: 50px;
+	width: 80px;
+	height: 80px;
 	background-color: #000;
 	color: #FFA400;
-	display: inline-block;
-	text-align: center;
-	font-size: 33px;
-	font-weight: bold;
+	display: inline-grid;
+	place-items: center;
+	font-size: 3em;
+	font-weight: 500;
 	border-radius: 10px;
 }
 
@@ -595,7 +602,7 @@ form{
     }
 
     .slider-active{
-      width: 100%;
+	  width: 100%;
     }
 
 
@@ -693,6 +700,9 @@ textarea {
 	color: #D2A38F !important;
 }
 
+.contactinfo__text_clr {
+	color: #D2A38F;
+}
 
 @media(max-width: 480px){
 	html, body{

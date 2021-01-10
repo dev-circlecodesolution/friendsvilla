@@ -74,6 +74,10 @@ body {
 .bottom-spacer {
   padding-bottom: 80px;
 }
+.fixed-y-height {
+  height: 1024px !important;
+  max-height: 1024px !important;
+}
 .container1 {
   width: 100vw;
   height: 100vh;
@@ -104,9 +108,9 @@ body {
   width: 100vw;
   height: 100vh;
   background: url("../images/1mil.png");
+  background-size: cover;
   background-repeat: no-repeat;
   background-position-y: 0px;
-  background-size: cover;
   opacity: 0.6;
   top: 0px;
   left: 0px;
@@ -373,9 +377,11 @@ input:-webkit-autofill {
   background-size: cover;
 }
 .submit-btn {
-  width: 80%;
+  width: 100%;
   text-transform: uppercase;
   font-weight: bold;
+  padding-top: 12px;
+  padding-bottom: 12px;
 }
 .auth-submit-btn:hover {
   background-color: rgba(7,62,79,1) !important;
